@@ -1,0 +1,15 @@
+{
+  "name": "exampl_site",
+  "version": "1.0.0",
+  "description": "page for tatto ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass":"node-sass -w base_scss/mean.scss -o css/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
