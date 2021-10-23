@@ -1,0 +1,15 @@
+.entry {
+  padding-top: 8rem; }
+
+.entry__content {
+  display: flex; }
+
+.entry__inner {
+  width: 60%; }
+
+.entry__img {
+  width: 40%; }
+
+.entry__biglogo {
+  font-size: 10rem;
+  font-weight: 700; }

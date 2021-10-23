@@ -1,0 +1,30 @@
+.button {
+  margin-top: 2.7rem;
+}
+.redbutton {
+  position: relative;
+  padding: 11px 32px;
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 500;
+  color: $white;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  &::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 64%;
+    height: 100%;
+    background-color: $rad;
+    z-index: -1;
+    transition: 250ms;
+  }
+}
+.redbutton:hover::before {
+  width: 100%;
+}

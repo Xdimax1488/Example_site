@@ -15,7 +15,7 @@
   }
 }
 .nav__burger.active {
-  right:105px;
+  right: 105px;
   transition: all 0.3s;
 }
 .nav__burger.active::before {
@@ -89,7 +89,7 @@
 .nav.active {
   transform: translateX(0);
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
   .nav__list {
     padding-inline-start: 0;
     display: block;
