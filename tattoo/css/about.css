@@ -1,0 +1,11 @@
+.about {
+  padding: 7.7rem 0; }
+
+.about__content {
+  display: flex; }
+
+.about__galeri {
+  width: 60%; }
+
+.about__description {
+  width: 40%; }

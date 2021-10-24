@@ -235,7 +235,8 @@ h6 {
   font-size: 1rem;
   bottom: 140px;
   justify-content: center;
-  margin-top: 100px; }
+  margin-top: 100px;
+  margin-bottom: 50px; }
 
 .entry__tel {
   margin-right: 4rem; }
@@ -255,7 +256,101 @@ h6 {
   font-weight: 700; }
 
 .entry__inst {
-  margin-left: 4rem; }
+  display: flex;
+  margin-left: 4rem;
+  text-align: center; }
+  .entry__inst a {
+    transform: translateY(-8px);
+    padding: 0 2px;
+    transition: 500ms; }
+
+.inst__icon {
+  transition: 500ms; }
+  .inst__icon:hover {
+    width: 30px;
+    height: 30px;
+    transform: translateY(-10px); }
+
+.about {
+  padding: 7.7rem 0;
+  position: relative; }
+
+.red__line span {
+  position: absolute;
+  display: block;
+  left: 34%;
+  width: 35px;
+  border-bottom: 1px solid #f13f3f; }
+
+.about__content {
+  display: flex; }
+
+.about__galeri {
+  width: 60%; }
+
+.about__description {
+  width: 40%;
+  padding: 0 1rem; }
+
+.about__tittle {
+  position: relative;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.25; }
+  .about__tittle::before {
+    position: absolute;
+    content: '';
+    border-left: 1px solid #f13f3f;
+    height: 35px;
+    top: 12px;
+    left: -31px; }
+
+.about__wtext {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-top: 40px; }
+
+.about__gtext {
+  color: #9b9b9b;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 1rem;
+  line-height: 1.4; }
+
+.about__galeri {
+  position: relative; }
+  .about__galeri img {
+    display: inline-block;
+    max-width: 100%;
+    padding: 0 1rem; }
+
+.about__img--1 {
+  margin-bottom: 70px; }
+
+.text__90 {
+  position: absolute;
+  right: 70px;
+  bottom: 50px;
+  font-size: 21px;
+  font-weight: 700;
+  color: #787878;
+  text-transform: uppercase;
+  transform: rotate(-90deg); }
+
+.about__social {
+  margin-top: 7rem;
+  text-align: right; }
+
+.about__social--img {
+  transition: 250ms; }
+  .about__social--img:hover {
+    transform: translateY(-10px) translatex(10px);
+    width: 60px;
+    height: 60px; }
 
 .button {
   margin-top: 2.7rem; }
